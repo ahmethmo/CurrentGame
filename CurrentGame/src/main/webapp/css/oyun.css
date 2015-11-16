@@ -1,0 +1,50 @@
+html,
+body, .header {
+    width: 100%;
+    height: 100%;
+}
+
+#OrtaUst tfoot,#OrtaUst thead{
+	/* background-color: #1C1C1C; */
+	background-color: #2ECCFA;
+	color:#FFFFFF;
+	height:40px;
+}
+
+#OrtaAlt tfoot,#OrtaAlt thead{
+	/* background-color: #1C1C1C; */
+	background-color: #9A2EFE;
+	color:#FFFFFF;
+	height:40px;
+}
+
+th {
+	height:40px;
+	text-align: center;
+	border-bottom-style: outset;
+}
+
+tbody td{
+	height:30px;
+	border-bottom-style: outset;
+}
+
+table{
+	background: #c8c8c8;
+	width: 100%;
+	opacity: 0.75;
+}
+
+#Orta{
+	padding: 0;
+	margin:0;
+	height:100%;
+}
+
+#OrtaAlt,#OrtaUst{
+	top:10px;
+	padding: 0;
+	margin:0;
+	width: 100%;
+	margin: 10px 0px;
+}

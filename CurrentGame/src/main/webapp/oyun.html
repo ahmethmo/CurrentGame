@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Current Game</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/oyun.css" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+</head>
+
+<body onload="start()">
+	<div class="container header">
+		<div class="col-sm-1">
+		</div>
+		<div class="col-sm-10" id="Orta">
+			<div class="col-sm-12" id="OrtaUst">
+				<table>
+					<thead>
+					  <tr >
+						<th>Name</th>
+						<th>Spells</th>
+						<th colspan="2">Champion</th>
+						<th>KDA</th>
+						<th>League</th>
+						<th>Ranked Win</th>
+						<th>Normal Win</th>
+						<th>Masteries</th>
+						<th>Runes</th>
+					  </tr>
+					</thead>
+					<tbody>
+					  <tr>
+						<td align="center">
+							V Rustler
+						</td>
+						<td align="center">
+							<img src="img/spell/SummonerTeleport.png" width="20" height="20">
+							<img src="img/spell/SummonerFlash.png" width="20" height="20">
+						</td>
+						<td align="center">
+							<img src="img/champion/Jax.png" width="40px" height="40px">
+						</td >
+						<td align="center">
+							Jax</br>
+							(
+							<font color="green">5</font>
+							+
+							<font color="red">4</font>
+							)
+							=
+							<strong>9</strong>
+						</td>
+						<td align="center">
+							<font color="green">5</font>
+							/
+							<font color="red">2.5</font>
+							/
+							<font color="orange">6</font>
+						</td>
+						<td align="center">
+							<img src="img/leagues/Platinum.png" width="40px" height="40px">
+							Platinum V (
+							<strong>48 LP</strong>
+							)
+						</td>
+						<td align="center">
+							<font color="green">450</font>
+							/
+							<font color="red">375</font>
+						</td>
+						<td align="center">
+							558
+						</td>
+						<td align="center">
+							21/9/0
+						</td>
+						<td align="center">
+							Runes
+						</td>
+					  </tr>
+					  <tr>
+						<td align="center">
+							V Rustler
+						</td>
+						<td align="center">
+							<img src="img/spell/SummonerTeleport.png" width="20" height="20">
+							<img src="img/spell/SummonerFlash.png" width="20" height="20">
+						</td>
+						<td align="center">
+							<img src="img/champion/Jax.png" width="40px" height="40px">
+						</td >
+						<td align="center">
+							Jax</br>
+							(
+							<font color="green">5</font>
+							+
+							<font color="red">4</font>
+							)
+							=
+							<strong>9</strong>
+						</td>
+						<td align="center">
+							<font color="green">5</font>
+							/
+							<font color="red">2.5</font>
+							/
+							<font color="orange">6</font>
+						</td>
+						<td align="center">
+							<img src="img/leagues/Platinum.png" width="40px" height="40px">
+							Platinum V (
+							<strong>48 LP</strong>
+							)
+						</td>
+						<td align="center">
+							<font color="green">450</font>
+							/
+							<font color="red">375</font>
+						</td>
+						<td align="center">
+							558
+						</td>
+						<td align="center">
+							21/9/0
+						</td>
+						<td align="center">
+							Runes
+						</td>
+					  </tr>
+					  <tr>
+						<td align="center">
+							V Rustler
+						</td>
+						<td align="center">
+							<img src="img/spell/SummonerTeleport.png" width="20" height="20">
+							<img src="img/spell/SummonerFlash.png" width="20" height="20">
+						</td>
+						<td align="center">
+							<img src="img/champion/Jax.png" width="40px" height="40px">
+						</td >
+						<td align="center">
+							Jax</br>
+							(
+							<font color="green">5</font>
+							+
+							<font color="red">4</font>
+							)
+							=
+							<strong>9</strong>
+						</td>
+						<td align="center">
+							<font color="green">5</font>
+							/
+							<font color="red">2.5</font>
+							/
+							<font color="orange">6</font>
+						</td>
+						<td align="center">
+							<img src="img/leagues/Platinum.png" width="40px" height="40px">
+							Platinum V (
+							<strong>48 LP</strong>
+							)
+						</td>
+						<td align="center">
+							<font color="green">450</font>
+							/
+							<font color="red">375</font>
+						</td>
+						<td align="center">
+							558
+						</td>
+						<td align="center">
+							21/9/0
+						</td>
+						<td align="center">
+							Runes
+						</td>
+					  </tr>
+					  <tr>
+						<td align="center">
+							V Rustler
+						</td>
+						<td align="center">
+							<img src="img/spell/SummonerTeleport.png" width="20" height="20">
+							<img src="img/spell/SummonerFlash.png" width="20" height="20">
+						</td>
+						<td align="center">
+							<img src="img/champion/Jax.png" width="40px" height="40px">
+						</td >
+						<td align="center">
+							Jax</br>
+							(
+							<font color="green">5</font>
+							+
+							<font color="red">4</font>
+							)
+							=
+							<strong>9</strong>
+						</td>
+						<td align="center">
+							<font color="green">5</font>
+							/
+							<font color="red">2.5</font>
+							/
+							<font color="orange">6</font>
+						</td>
+						<td align="center">
+							<img src="img/leagues/Platinum.png" width="40px" height="40px">
+							Platinum V (
+							<strong>48 LP</strong>
+							)
+						</td>
+						<td align="center">
+							<font color="green">450</font>
+							/
+							<font color="red">375</font>
+						</td>
+						<td align="center">
+							558
+						</td>
+						<td align="center">
+							21/9/0
+						</td>
+						<td align="center">
+							Runes
+						</td>
+					  </tr>
+					  <tr>
+						<td align="center">
+							V Rustler
+						</td>
+						<td align="center">
+							<img src="img/spell/SummonerTeleport.png" width="20" height="20">
+							<img src="img/spell/SummonerFlash.png" width="20" height="20">
+						</td>
+						<td align="center">
+							<img src="img/champion/Jax.png" width="40px" height="40px">
+						</td >
+						<td align="center">
+							Jax</br>
+							(
+							<font color="green">5</font>
+							+
+							<font color="red">4</font>
+							)
+							=
+							<strong>9</strong>
+						</td>
+						<td align="center">
+							<font color="green">5</font>
+							/
+							<font color="red">2.5</font>
+							/
+							<font color="orange">6</font>
+						</td>
+						<td align="center">
+							<img src="img/leagues/Platinum.png" width="40px" height="40px">
+							Platinum V (
+							<strong>48 LP</strong>
+							)
+						</td>
+						<td align="center">
+							<font color="green">450</font>
+							/
+							<font color="red">375</font>
+						</td>
+						<td align="center">
+							558
+						</td>
+						<td align="center">
+							21/9/0
+						</td>
+						<td align="center">
+							Runes
+						</td>
+					  </tr>
+					  </tbody>
+					<tfoot>
+						  <tr>
+							<td colspan="10" align="right" height="40px">
+								Banned list:
+								<img src="img/champion/Zyra.png" width="30px" height="30px">
+								<img src="img/champion/Ashe.png" width="30px" height="30px">
+								<img src="img/champion/Malphite.png" width="30px" height="30px">
+							</td>
+						  </tr>
+					  </tfoot>
+				</table>
+			</div>
+			<div class="col-sm-12" id="OrtaAlt">
+				<table>
+					<thead>
+					  <tr >
+						<th>Name</th>
+						<th>Spells</th>
+						<th colspan="2">Champion</th>
+						<th>KDA</th>
+						<th>League</th>
+						<th>Ranked Win</th>
+						<th>Normal Win</th>
+						<th>Masteries</th>
+						<th>Runes</th>
+					  </tr>
+					</thead>
+					<tbody >
+					  <tr>
+						<td align="center">
+							V Rustler
+						</td>
+						<td align="center">
+							<img src="img/spell/SummonerTeleport.png" width="20" height="20">
+							<img src="img/spell/SummonerFlash.png" width="20" height="20">
+						</td>
+						<td align="center">
+							<img src="img/champion/Jax.png" width="40px" height="40px">
+						</td >
+						<td align="center">
+							Jax</br>
+							(
+							<font color="green">5</font>
+							+
+							<font color="red">4</font>
+							)
+							=
+							<strong>9</strong>
+						</td>
+						<td align="center">
+							<font color="green">5</font>
+							/
+							<font color="red">2.5</font>
+							/
+							<font color="orange">6</font>
+						</td>
+						<td align="center">
+							<img src="img/leagues/Platinum.png" width="40px" height="40px">
+							Platinum V (
+							<strong>48 LP</strong>
+							)
+						</td>
+						<td align="center">
+							<font color="green">450</font>
+							/
+							<font color="red">375</font>
+						</td>
+						<td align="center">
+							558
+						</td>
+						<td align="center">
+							21/9/0
+						</td>
+						<td align="center">
+							Runes
+						</td>
+					  </tr>
+					  <tr>
+						<td align="center">
+							V Rustler
+						</td>
+						<td align="center">
+							<img src="img/spell/SummonerTeleport.png" width="20" height="20">
+							<img src="img/spell/SummonerFlash.png" width="20" height="20">
+						</td>
+						<td align="center">
+							<img src="img/champion/Jax.png" width="40px" height="40px">
+						</td >
+						<td align="center">
+							Jax</br>
+							(
+							<font color="green">5</font>
+							+
+							<font color="red">4</font>
+							)
+							=
+							<strong>9</strong>
+						</td>
+						<td align="center">
+							<font color="green">5</font>
+							/
+							<font color="red">2.5</font>
+							/
+							<font color="orange">6</font>
+						</td>
+						<td align="center">
+							<img src="img/leagues/Platinum.png" width="40px" height="40px">
+							Platinum V (
+							<strong>48 LP</strong>
+							)
+						</td>
+						<td align="center">
+							<font color="green">450</font>
+							/
+							<font color="red">375</font>
+						</td>
+						<td align="center">
+							558
+						</td>
+						<td align="center">
+							21/9/0
+						</td>
+						<td align="center">
+							Runes
+						</td>
+					  </tr>
+					  <tr>
+						<td align="center">
+							V Rustler
+						</td>
+						<td align="center">
+							<img src="img/spell/SummonerTeleport.png" width="20" height="20">
+							<img src="img/spell/SummonerFlash.png" width="20" height="20">
+						</td>
+						<td align="center">
+							<img src="img/champion/Jax.png" width="40px" height="40px">
+						</td >
+						<td align="center">
+							Jax</br>
+							(
+							<font color="green">5</font>
+							+
+							<font color="red">4</font>
+							)
+							=
+							<strong>9</strong>
+						</td>
+						<td align="center">
+							<font color="green">5</font>
+							/
+							<font color="red">2.5</font>
+							/
+							<font color="orange">6</font>
+						</td>
+						<td align="center">
+							<img src="img/leagues/Platinum.png" width="40px" height="40px">
+							Platinum V (
+							<strong>48 LP</strong>
+							)
+						</td>
+						<td align="center">
+							<font color="green">450</font>
+							/
+							<font color="red">375</font>
+						</td>
+						<td align="center">
+							558
+						</td>
+						<td align="center">
+							21/9/0
+						</td>
+						<td align="center">
+							Runes
+						</td>
+					  </tr>
+					  <tr>
+						<td align="center">
+							V Rustler
+						</td>
+						<td align="center">
+							<img src="img/spell/SummonerTeleport.png" width="20" height="20">
+							<img src="img/spell/SummonerFlash.png" width="20" height="20">
+						</td>
+						<td align="center">
+							<img src="img/champion/Jax.png" width="40px" height="40px">
+						</td >
+						<td align="center">
+							Jax</br>
+							(
+							<font color="green">5</font>
+							+
+							<font color="red">4</font>
+							)
+							=
+							<strong>9</strong>
+						</td>
+						<td align="center">
+							<font color="green">5</font>
+							/
+							<font color="red">2.5</font>
+							/
+							<font color="orange">6</font>
+						</td>
+						<td align="center">
+							<img src="img/leagues/Platinum.png" width="40px" height="40px">
+							Platinum V (
+							<strong>48 LP</strong>
+							)
+						</td>
+						<td align="center">
+							<font color="green">450</font>
+							/
+							<font color="red">375</font>
+						</td>
+						<td align="center">
+							558
+						</td>
+						<td align="center">
+							21/9/0
+						</td>
+						<td align="center">
+							Runes
+						</td>
+					  </tr>
+					  <tr>
+						<td align="center">
+							V Rustler
+						</td>
+						<td align="center">
+							<img src="img/spell/SummonerTeleport.png" width="20" height="20">
+							<img src="img/spell/SummonerFlash.png" width="20" height="20">
+						</td>
+						<td align="center">
+							<img src="img/champion/Jax.png" width="40px" height="40px">
+						</td >
+						<td align="center">
+							Jax</br>
+							(
+							<font color="green">5</font>
+							+
+							<font color="red">4</font>
+							)
+							=
+							<strong>9</strong>
+						</td>
+						<td align="center">
+							<font color="green">5</font>
+							/
+							<font color="red">2.5</font>
+							/
+							<font color="orange">6</font>
+						</td>
+						<td align="center">
+							<img src="img/leagues/Platinum.png" width="40px" height="40px">
+							Platinum V (
+							<strong>48 LP</strong>
+							)
+						</td>
+						<td align="center">
+							<font color="green">450</font>
+							/
+							<font color="red">375</font>
+						</td>
+						<td align="center">
+							558
+						</td>
+						<td align="center">
+							21/9/0
+						</td>
+						<td align="center">
+							Runes
+						</td>
+					  </tr>
+					  <tfoot>
+						  <tr>
+							<td colspan="10" align="right" height="40px">
+								Banned list:
+								<img src="img/champion/Zyra.png" width="30px" height="30px">
+								<img src="img/champion/Ashe.png" width="30px" height="30px">
+								<img src="img/champion/Malphite.png" width="30px" height="30px">
+							</td>
+						  </tr>
+					  </tfoot>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="col-sm-1">
+		</div>
+	</div>
+	<script src="js/myjs.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
